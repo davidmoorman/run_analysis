@@ -14,11 +14,11 @@ library(plyr)
 library(reshape2)
 
 # Get current working directory and store it
-oldwd <- getwd()
+# oldwd <- getwd()
 
 # Set working directory for script
-newwd <- "/Users/david/Dropbox/R/Coursera/UCI HAR Dataset"
-setwd(newwd)
+# newwd <- "/Users/david/Dropbox/R/Coursera/UCI HAR Dataset"
+# setwd(newwd)
 
 
 ###################################################################################################
@@ -105,4 +105,4 @@ write.table(tidy, file = "TidyData.txt",row.names = FALSE)
 
 ###################################################################################################
 # Restore old working directory
-setwd(oldwd)
+# setwd(oldwd)
